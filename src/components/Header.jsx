@@ -39,16 +39,16 @@ const Header = () => {
         className="fixed top-0 left-0 h-full bg-[#ff0066] text-white p-5 z-30"
       >
         <ul className="flex flex-col gap-4 mt-24 mb-10">
-          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 scale-50 hover:scale-110">
             Home
           </li>
-          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 scale-50 hover:scale-110">
             About
           </li>
-          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 scale-50 hover:scale-110">
             Services
           </li>
-          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 scale-50 hover:scale-110">
             Contact
           </li>
         </ul>
