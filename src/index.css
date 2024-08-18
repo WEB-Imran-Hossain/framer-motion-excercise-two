@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-white text-primary;
+}
+
+button {
+  @apply outline-none border-none cursor-pointer;
+}
