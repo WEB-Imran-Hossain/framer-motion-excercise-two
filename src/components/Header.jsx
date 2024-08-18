@@ -36,19 +36,19 @@ const Header = () => {
         animate={{ width: isOpen ? '16rem' : 0, opacity: isOpen ? 1 : 0 }} // Animate menu width and opacity based on isOpen state
         exit={{ width: 0, opacity: 0 }} // Exit state for the menu
         transition={{ duration: 0.4, ease: 'easeInOut' }} // Transition duration and easing
-        className="fixed top-0 left-0 h-full bg-[#ff0066] text-white p-5 z-30 overflow-hidden"
+        className="fixed top-0 left-0 h-full bg-[#ff0066] text-white p-5 z-30"
       >
         <ul className="flex flex-col gap-4 mt-24 mb-10">
-          <li className="text-4xl font-bold tracking-tight transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
             Home
           </li>
-          <li className="text-4xl font-bold tracking-tight transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
             About
           </li>
-          <li className="text-4xl font-bold tracking-tight transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
             Services
           </li>
-          <li className="text-4xl font-bold tracking-tight transition-transform duration-300 hover:scale-110">
+          <li className="text-4xl font-bold transition-transform duration-300 hover:scale-110">
             Contact
           </li>
         </ul>

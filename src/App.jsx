@@ -1,11 +1,14 @@
 
+import Banner from "./components/Banner"
+import Header from './components/Header';
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <Banner />
+    </div>
   );
-}
+};
 
 export default App;
